@@ -4,7 +4,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Data Analyst
 --------------------
 
-I am a Full-Stack Deveoloper. As an avid coder with over two years of industry experience in full-stack development, I have a deep-seated passion for technology and a relentless drive to learn and master new programming languages. My journey in the tech world is fueled by my desire to create beautiful, functional, and impactful digital solutions.
+I am a Business Analyst with a strong analytical mindset and a passion for turning data into actionable insights. With over two years of experience in the industry, I am driven by my desire to understand complex business challenges and leverage data to create impactful solutions. My journey in the world of analytics is fueled by a relentless drive to learn and master new tools and methodologies, helping organizations make data-driven decisions that lead to success.
+
 
 * 🌍  I'm based in Syracuse, New York
 * ✉️  You can contact me at [hsrivast@syr.edu](mailto:hsrivast@syr.edu)
