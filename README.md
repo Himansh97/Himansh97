@@ -17,7 +17,6 @@ I am a Business Analyst with a strong analytical mindset and a passion for turni
 
 ### Skills
 
-
 <p align="left">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" height="36" alt="Python" />
@@ -46,7 +45,13 @@ I am a Business Analyst with a strong analytical mindset and a passion for turni
   <a href="https://powerbi.microsoft.com/en-us/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-icon.svg" width="36" height="36" alt="Power BI" />
   </a>
-  <a href="https://www
+  <a href="https://github.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="36" height="36" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" width="36" height="36" alt="LinkedIn" />
+  </a>
+</p>
 
 
 
