@@ -1,8 +1,8 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Himanshu Srivastava
 ============================================================================================================================================
 
-Data Analyst
---------------------
+Data Analyst/BusinessAnalyst
+-----------------------------
 
 I am a Business Analyst with a strong analytical mindset and a passion for turning data into actionable insights. With over two years of experience in the industry, I am driven by my desire to understand complex business challenges and leverage data to create impactful solutions. My journey in the world of analytics is fueled by a relentless drive to learn and master new tools and methodologies, helping organizations make data-driven decisions that lead to success.
 
