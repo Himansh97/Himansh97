@@ -1,18 +1,18 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Priyanshu Srivastava
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Himanshu Srivastava
 ============================================================================================================================================
 
-Full-Stack Developer
+Data Analyst
 --------------------
 
 I am a Full-Stack Deveoloper. As an avid coder with over two years of industry experience in full-stack development, I have a deep-seated passion for technology and a relentless drive to learn and master new programming languages. My journey in the tech world is fueled by my desire to create beautiful, functional, and impactful digital solutions.
 
-* 🌍  I'm based in Boston, Massachusetts
-* 🖥️  See my portfolio at [My Portfolio Website](http://dashing-raindrop-d70c5c.netlify.app/)
-* ✉️  You can contact me at [srivastava.pri@northeastern.edu](mailto:srivastava.pri@northeastern.edu)
-* 🚀  I'm currently working on [NRIaaya react based application with Node.js back end](http://github.com/ronny26)
-* 🧠  I'm learning Next.js and Vue.js along with React Native to jump into mobile application development
-* 🤝  I'm open to collaborating on projects that matter, feel free to reach out to me with any such collaboration ideas
-* ⚡  I love working out and making delicious healthy food.
+* 🌍  I'm based in Syracuse, New York
+* ✉️  You can contact me at [hsrivast@syr.edu](mailto:hsrivast@syr.edu)
+*🎓 I'm currently pursuing a Master's in Business Analytics, building expertise in data analysis and strategic decision-making.
+*💼 I have completed my MBA and bring a strong foundation in business management combined with analytical skills.
+*🧠 I'm learning SQL, Python, and Power BI to enhance my ability to analyze and visualize complex data.
+*🤝 I'm open to collaborating on data-driven projects or business strategy initiatives that create real-world impact. Feel free to reach out for collaborations!
+*⚡ In my free time, I enjoy working out and experimenting with healthy recipes.
 
 ### Skills
 
