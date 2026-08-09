@@ -7,7 +7,7 @@ Data Analyst/BusinessAnalyst
 I am a Business Analyst with a strong analytical mindset and a passion for turning data into actionable insights. With over two years of experience in the industry, I am driven by my desire to understand complex business challenges and leverage data to create impactful solutions. My journey in the world of analytics is fueled by a relentless drive to learn and master new tools and methodologies, helping organizations make data-driven decisions that lead to success.
 
 
-🌍  I'm based in Syracuse, New York  
+🌍  I'm based in Dallas, Texas  
 ✉️  You can contact me at hsrivast@syr.edu  
 🎓 I'm currently pursuing a Master's in Business Analytics, building expertise in data analysis and strategic decision-making.  
 💼 I have completed my MBA and bring a strong foundation in business management combined with analytical skills.  
