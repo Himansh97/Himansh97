@@ -8,7 +8,7 @@ I am a Business Analyst with a strong analytical mindset and a passion for turni
 
 
 🌍  I'm based in Dallas, Texas  
-✉️  You can contact me at hsrivast@syr.edu  
+✉️  You can contact me at hsrivast22@gmail.com 
 🎓 I'm currently pursuing a Master's in Business Analytics, building expertise in data analysis and strategic decision-making.  
 💼 I have completed my MBA and bring a strong foundation in business management combined with analytical skills.  
 🧠 I'm learning SQL, Python, and Power BI to enhance my ability to analyze and visualize complex data.  
