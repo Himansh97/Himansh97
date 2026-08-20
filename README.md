@@ -1,69 +1,83 @@
-![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Hi! My name is Himanshu Srivastava
-==============================================================================================================================================
+## Himanshu Srivastava
 
-Data Analyst/BusinessAnalyst
------------------------------
+**Data and platform engineering — Dallas, TX**
 
-I am a Business Analyst with a strong analytical mindset and a passion for turning data into actionable insights. With over two years of experience in the industry, I am driven by my desire to understand complex business challenges and leverage data to create impactful solutions. My journey in the world of analytics is fueled by a relentless drive to learn and master new tools and methodologies, helping organizations make data-driven decisions that lead to success.
+I build AI into regulated workflows, and the controls that make its output
+checkable. Mortgage lending mostly: loan origination systems, Ginnie Mae pool
+delivery, GL reconciliation, and the CI/CD security gates around them.
 
+The through-line in everything below is the same idea — **an automated system
+should be able to prove what it did.** Not assert it. Prove it, to someone who
+does not trust it.
 
-🌍  I'm based in Dallas, Texas  
-✉️  You can contact me at hsrivast22@gmail.com 
-🎓 I'm currently pursuing a Master's in Business Analytics, building expertise in data analysis and strategic decision-making.  
-💼 I have completed my MBA and bring a strong foundation in business management combined with analytical skills.  
-🧠 I'm learning SQL, Python, and Power BI to enhance my ability to analyze and visualize complex data.  
-🤝 I'm open to collaborating on data-driven projects or business strategy initiatives that create real-world impact. Feel free to reach out for collaborations!  
-⚡ In my free time, I enjoy working out and experimenting with healthy recipes.  
+---
 
-### Skills
+### [Custody](https://github.com/Himansh97/custody) · `pip install custody-ledger`
 
-<p align="left">
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" height="36" alt="Python" />
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="36" height="36" alt="SQL" />
-  </a>
-  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Microsoft_Excel_2013-2019_logo.svg" width="36" height="36" alt="Excel" />
-  </a>
-  <a href="https://www.tableau.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tableau/tableau-icon.svg" width="36" height="36" alt="Tableau" />
-  </a>
-  <a href="https://www.r-project.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" width="36" height="36" alt="R" />
-  </a>
-  <a href="https://jupyter.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="36" height="36" alt="Jupyter" />
-  </a>
-  <a href="https://azure.microsoft.com/en-us/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="36" height="36" alt="Azure" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="36" height="36" alt="HTML5" />
-  </a>
-  <a href="https://powerbi.microsoft.com/en-us/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-icon.svg" width="36" height="36" alt="Power BI" />
-  </a>
-</p>
+A signed, append-only ledger for AI decisions in mortgage lending, built against
+Fannie Mae Lender Letter LL-2026-04.
 
+Two halves that are useless apart. A **deterministic gate** runs before an AI
+output reaches a loan file: every figure must appear in a source document, every
+field must cite one, classifications must land in a closed set, and anything under
+the confidence floor goes to a person. There is no model anywhere in the
+verification path — a model judging a model is not evidence. Then a **hash-chained,
+Ed25519-signed ledger** records what the model produced and what a human did about
+it, so the safeguard can be shown to have run rather than claimed.
 
-### Socials
+- Published on [PyPI](https://pypi.org/project/custody-ledger/), v0.6.0
+- 103 assertions across 12 test files; SQLite and Postgres, both tested in CI
+- Ed25519 and ECDSA-P256, with keys in Azure Key Vault rather than on disk
+- One runtime dependency, because this sits in the call path of a regulated workflow
+- `verify_packet.py` — a single stdlib-only file so an examiner can check the
+  evidence without trusting this package
+- The [compliance mapping](https://github.com/Himansh97/custody/blob/main/docs/ll-2026-04.md)
+  says "no" more often than a vendor document would
 
-<p align="left"> 
-  <a href="https://github.com/himansh97" target="_blank" rel="noreferrer"> 
-    <picture> 
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> 
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> 
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> 
-    </picture> 
-  </a> 
-  <a href="https://www.linkedin.com/in/himanshu-shrivastava-42b54a23b/" target="_blank" rel="noreferrer"> 
-    <picture> 
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> 
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> 
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> 
-    </picture> 
-  </a> 
-</p>
+**[Live demo](https://himansh97.github.io/custody.html)** — the page recomputes
+every hash in your own browser. Press *Tamper* and the chain breaks at the record
+that was edited.
 
+---
+
+### CareerOS — [api](https://github.com/Himansh97/careeros-api) · [web](https://github.com/Himansh97/careeros-web)
+
+A job search run as an engineering system. FastAPI backend, Next.js 16 frontend.
+
+Fit scoring is deterministic and evidence-based: **no resume claim can exist
+without a verified source behind it**, and a requirement the system does not
+recognise is reported as a gap, never assumed as a pass. That second rule came
+from a real failure — a mortgage compliance posting once scored 98/100 with "no
+gaps" because the requirements it did not understand were invisible rather than
+unmet.
+
+Nothing auto-submits. The API prepares and stops; the browser automation is
+structurally incapable of pressing submit. That is not caution for its own sake —
+it is what the ATS terms of service actually require.
+
+- 120 commits, 63 endpoints, 26 test files
+- Containment: generated prose is discarded whole if any sentence introduces a
+  figure, a proper noun or a seniority claim its source does not support
+
+---
+
+### [Portfolio](https://himansh97.github.io)
+
+Live, interactive, no build step. Includes the containment gate and the Custody
+ledger running in the page.
+
+---
+
+### Currently
+
+AI Engineer Intern at a regulated mortgage lender, working on LOS integrations,
+Ginnie Mae delivery, and AI-assisted reconciliation. MS Business Analytics and an
+MBA. Lean Six Sigma Green Belt.
+
+**Python · SQL · FastAPI · React/TypeScript · Azure (Bicep, Container Apps, Key
+Vault) · GitHub Actions · Power BI · Tableau · PySpark · Airflow · Claude API ·
+MISMO/ULDD · Encompass**
+
+[hsrivast22@gmail.com](mailto:hsrivast22@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/himanshu-data-engineer/) ·
+[himansh97.github.io](https://himansh97.github.io)
