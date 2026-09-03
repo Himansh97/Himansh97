@@ -26,7 +26,8 @@ Ed25519-signed ledger** records what the model produced and what a human did abo
 it, so the safeguard can be shown to have run rather than claimed.
 
 - Published on [PyPI](https://pypi.org/project/custody-ledger/), v0.6.0
-- 103 assertions across 12 test files; SQLite and Postgres, both tested in CI
+- 92 tests across 11 files; SQLite and Postgres, both tested in CI
+- Four releases tagged on GitHub, matching the four published to PyPI
 - Ed25519 and ECDSA-P256, with keys in Azure Key Vault rather than on disk
 - One runtime dependency, because this sits in the call path of a regulated workflow
 - `verify_packet.py` — a single stdlib-only file so an examiner can check the
@@ -55,7 +56,7 @@ Nothing auto-submits. The API prepares and stops; the browser automation is
 structurally incapable of pressing submit. That is not caution for its own sake —
 it is what the ATS terms of service actually require.
 
-- 120 commits, 63 endpoints, 26 test files
+- 281 commits across the two repos, 88 API endpoints, 457 backend tests in 60 files
 - Containment: generated prose is discarded whole if any sentence introduces a
   figure, a proper noun or a seniority claim its source does not support
 
